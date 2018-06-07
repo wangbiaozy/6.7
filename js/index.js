@@ -35,10 +35,8 @@ $(function () {
     $('#userInfo').on('blur','input',function () {
         if($(this).val() === ''){
             $(this).parent().next('p').show();
-            $('.address').addClass('act');
         }else{
             $(this).parent().next('p').hide();
-            $('.address').removeClass('act');
         }
     });
     $('#checkInfo').on('blur',function () {
