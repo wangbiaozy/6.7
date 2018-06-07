@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63c826e2-f630-4571-8475-b2e0129794c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/styles_1.less" afterPath="$PROJECT_DIR$/css/styles_1.less" />
+      <change beforePath="$PROJECT_DIR$/css/styles_2.less" afterPath="$PROJECT_DIR$/css/styles_2.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,17 +56,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles_2.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles_2.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles_2.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="162" column="7" lean-forward="false" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
+            <state relative-caret-position="375">
+              <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
               <folding>
                 <element signature="e#72#461#0" expanded="false" />
                 <element signature="e#468#2550#0" expanded="false" />
                 <element signature="e#734#1100#0" expanded="false" />
                 <element signature="e#1123#2353#0" expanded="false" />
-                <element signature="e#3017#3304#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -102,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles_1.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles_1.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles_1.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="523">
@@ -139,7 +138,6 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/reset.min.css" />
-        <option value="$PROJECT_DIR$/css/styles_2.less" />
         <option value="$PROJECT_DIR$/index_3.html" />
         <option value="$PROJECT_DIR$/index_4.html" />
         <option value="$PROJECT_DIR$/css/styles_3.less" />
@@ -147,6 +145,7 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/index_1.html" />
         <option value="$PROJECT_DIR$/css/styles_1.less" />
+        <option value="$PROJECT_DIR$/css/styles_2.less" />
       </list>
     </option>
   </component>
@@ -245,12 +244,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528255405585</updated>
       <workItem from="1528255407079" duration="321000" />
-      <workItem from="1528262961302" duration="23860000" />
+      <workItem from="1528262961302" duration="24279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24181000" />
+    <option name="totallyTimeSpent" value="24600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1631" height="1027" extended-state="0" />
@@ -403,36 +402,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles_2.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="162" column="7" lean-forward="false" selection-start-line="162" selection-start-column="7" selection-end-line="162" selection-end-column="7" />
-          <folding>
-            <element signature="e#72#461#0" expanded="false" />
-            <element signature="e#468#2550#0" expanded="false" />
-            <element signature="e#734#1100#0" expanded="false" />
-            <element signature="e#1123#2353#0" expanded="false" />
-            <element signature="e#3017#3304#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="38" column="46" lean-forward="false" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1233">
-          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,6 +439,30 @@
             <element signature="e#6411#6643#0" expanded="false" />
             <element signature="e#6671#6784#0" expanded="false" />
             <element signature="e#8159#9220#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1233">
+          <caret line="73" column="17" lean-forward="true" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#main#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles_2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+          <folding>
+            <element signature="e#72#461#0" expanded="false" />
+            <element signature="e#468#2550#0" expanded="false" />
+            <element signature="e#734#1100#0" expanded="false" />
+            <element signature="e#1123#2353#0" expanded="false" />
           </folding>
         </state>
       </provider>
