@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <style>
+        h1{
+            font-size: .36rem;
+            font-weight: normal;
+            text-align: center;
+            line-height: 1rem;
+            color: #333333;
+        }
+        ul li a{
+            margin: 0 auto .15rem;
+            display: block;
+            width: 7.28rem;
+            height: 1.69rem;
+        }
+        ul li:nth-child(1) a{
+            background: url("./images/pic_1.png") center no-repeat;
+            background-size: cover;
+        }
+        ul li:nth-child(2) a{
+            background: url("./images/pic_2.png") center no-repeat;
+            background-size: cover;
+        }
+        ul li:nth-child(3) a{
+            background: url("./images/pic_3.png") center no-repeat;
+            background-size: cover;
+        }
+        ul li:nth-child(4) a{
+            background: url("./images/pic_4.png") center no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+<section>
+    <h1>云业务</h1>
+    <ul>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+        <li>
+            <a href=""></a>
+        </li>
+    </ul>
+</section>
+</body>
+</html>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>

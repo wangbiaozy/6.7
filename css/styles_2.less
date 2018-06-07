@@ -1,0 +1,173 @@
+html,body{
+  background-color: #f7f7f7;
+}
+section:nth-child(1){
+  header{
+    p{
+      margin: .5rem auto 0;
+      width: 7.1rem;
+      height: .46rem;
+      font-size: .2rem;
+      line-height: .46rem;
+      text-align: center;
+      border-radius: .05rem;
+      color: #ffffff;
+      background-color: #ffab53;
+    }
+    h2{
+      font-size: .3rem;
+      line-height: .8rem;
+      font-weight: normal;
+      text-align: center;
+      color: #333333;
+    }
+  }
+  main{
+    margin-bottom: .5rem;
+    >div{
+      position: relative;
+      margin: 0 auto .3rem;
+      padding: .88rem 0 .3rem;
+      width: 7.1rem;
+      border-radius: .1rem;
+      box-shadow: 0 5px 15px #d6d6d6;
+      background-color: #fbfdff;
+      >div:nth-child(1){
+        position: absolute;
+        top: .18rem;
+        left: -.13rem;
+        width: 1.93rem;
+        height: .69rem;
+        background: url("../images/title-bg.png") center no-repeat;
+        background-size: cover;
+        p{
+          font-size: .24rem;
+          line-height: .58rem;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+      >ul:nth-child(2){
+        box-sizing: border-box;
+        margin: 0 auto;
+        width: 6.7rem;
+        border-radius: .1rem;
+        box-shadow: 0 4px 8px #d7d9da;
+        border: 1px solid #999999;
+        li{
+          display: flex;
+          align-items: center;
+          height: .46rem;
+          border-bottom: 1px solid #999999;
+          background-color: #ffffff;
+          p:nth-child(1){
+            width: 1.27rem;
+            height: 100%;
+            font-size: .22rem;
+            line-height: .47rem;
+            text-align: center;
+            color: #ffffff;
+            background-color: #38bbff;
+          }
+          p:nth-child(2){
+            overflow: scroll;
+            box-sizing: border-box;
+            padding: 0 .18rem;
+            width: 5.4rem;
+            height: 100%;
+            font-size: .2rem;
+            line-height: .47rem;
+            color: #333333;
+          }
+        }
+        li:nth-child(1){
+          border-radius: .09rem .09rem 0 0;
+          p{
+            border-radius: .09rem 0 0 0;
+          }
+        }
+        li:last-child{
+          border-radius: 0 0 .09rem .09rem;
+          border-bottom: none;
+          p{
+            border-radius: 0 0 0 .09rem;
+          }
+        }
+      }
+      >p{
+        padding: .16rem .24rem 0;
+        font-size: .2rem;
+        color: #666666;
+      }
+    }
+    >p{
+      padding: 0 .42rem;
+      font-size: .2rem;
+      color: #ff0a00;
+    }
+  }
+  footer{
+    >div{
+      padding-left: .4rem;
+      display: flex;
+      align-items: center;
+      div{
+        display: flex;
+        align-items: center;
+        border-radius: .1rem;
+        border: 1px solid #999999;
+        label{
+          width: 1.27rem;
+          height: .56rem;
+          font-size: .22rem;
+          line-height: .56rem;
+          text-align: center;
+          color: #ffffff;
+          background-color: #38bbff;
+        }
+        input{
+          box-sizing: border-box;
+          padding: 0 .15rem;
+          width: 1.8rem;
+          height: .56rem;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          border: none;
+          background-color: transparent;
+        }
+        img{
+          margin: 0 .8rem 0 .3rem;
+          width: .9rem;
+          height: .56rem;
+        }
+      }
+      p{
+        display: none;
+        font-size: .2rem;
+        color: #ff0a00;
+      }
+      div:nth-child(2){
+        border: none;
+      }
+      a{
+        width: 1.46rem;
+        height: .65rem;
+        font-size: .3rem;
+        line-height: .65rem;
+        text-align: center;
+        color: #ffffff;
+        border-radius: .1rem;
+        background-color: #ffab53;
+        box-shadow: 0 5px 8px #e3b794;
+      }
+      a:nth-child(2){
+        margin: .5rem 1.1rem;
+      }
+    }
+    >div:nth-child(2){
+      padding-left: 0;
+      justify-content: center;
+    }
+  }
+}

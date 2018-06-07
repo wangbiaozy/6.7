@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet/less" href="css/styles_3.less">
+    <script src="js/less-1.7.0.min.js"></script>
+</head>
+<body>
+<section>
+    <header>
+        <p>您选择办理的是：<span>固话新装</span>，请确认协议并填写详细业务信息。</p>
+    </header>
+    <main>
+        <div>
+            <img src="./images/pic_6.png" alt="">
+        </div>
+        <h2>操作成功</h2>
+        <p>尊敬的18745771293用户，您的业务办理申请提交成功<br>订单号为<span>201825519183811</span>。<br>客服代表将于24小时内和您确认受理结果。</p>
+        <a href="">返回</a>
+    </main>
+</section>
+</body>
+</html>
+<script>
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+            };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
